@@ -2,12 +2,12 @@
 This specification will go through the API specs to be used by the front end of TapWater.
 
 ##  What is not covered
-** Unhappy Paths
---* 404's, 500's, etc
-** Messanging Section of the application
+* Unhappy Paths
+ * 404's, 500's, etc
+* Messanging Section of the application
 
 ##  Hazyness
-** Where the creation of the user is concerned, that's a bit hazy until I look into how the phone integrations work for native apps, but I gave it my best guess.
+* Where the creation of the user is concerned, that's a bit hazy until I look into how the phone integrations work for native apps, but I gave it my best guess.
 
 ##  HTTP GET
 
@@ -160,7 +160,9 @@ id = user account number / user token
 
 
 **Variables:**
+
 id = user account number / user token
+
 c_id = content id
 
 **REQUEST:**
@@ -184,7 +186,9 @@ c_id = content id
 
 
 **Variables:**
+
 id = user account number / user token
+
 c_id = content id
 
 **REQUEST:**
@@ -208,7 +212,9 @@ c_id = content id
 
 
 **Variables:**
+
 id = user account number / user token
+
 c_id = content id
 
 **REQUEST:**
