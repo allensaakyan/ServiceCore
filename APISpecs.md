@@ -98,8 +98,9 @@ id = user account number / user token
 ```javascript
 {'user_id': string,
 'distance_pref': int
-'age': int,
-'minimum_likes': int}
+'age_min': int,
+'age_max': int,
+'min_likes': int}
 ```
 
 ## HTTP POST
@@ -197,4 +198,29 @@ c_id = content id
 'title': string, 
 'content': string, 
 'content_id':string}
+```
+
+---
+
+**Description:** Update user preferences
+
+**Endpoint:** `ServiceCore/1.0/user/<id>`
+
+
+**Variables:**
+id = user account number / user token
+c_id = content id
+
+**REQUEST:**
+```javascript
+{'user_id': string,
+'distance_pref': int
+'age_min': int,
+'age_max': int,
+'min_likes': int}
+```
+
+**RESPONSE:**
+```javascript
+""
 ```
