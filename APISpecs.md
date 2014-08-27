@@ -143,7 +143,8 @@ id = user account number / user token
 **REQUEST:**
 ```javascript
 {'title': string,
-'image': FileType (maybe url string)?
+'image_file': FileType
+'image_url':string
 'content': string}
 ```
 
