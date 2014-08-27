@@ -4,7 +4,7 @@ This specification will go through the API specs to be used by the front end of 
 ##  What is not covered
 * Unhappy Paths
  * 404's, 500's, etc
-* Messanging Section of the application
+* Messaging Section of the application
 
 ##  Hazyness
 * Where the creation of the user is concerned, that's a bit hazy until I look into how the phone integrations work for native apps, but I gave it my best guess.
@@ -57,7 +57,7 @@ id = user account number / user token
 
 ---
 
-**Description:** Pulls up the friends the user has
+**Description:** Pulls up the matches of the user based on his preferences.
 
 **Endpoint:** `ServiceCore/1.0/user/<id>/friends`
 
