@@ -176,7 +176,7 @@ id = user account number / user token
 ```javascript
 {'title': string,
 'image_file': FileType
-'image_url':string
+'content_url':string
 'content': string}
 ```
 
