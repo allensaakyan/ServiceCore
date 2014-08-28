@@ -207,6 +207,7 @@ c_id = content id
 ```javascript
 {'img': string,
 'title': string, 
+'url': string,
 'content': string, 
 'content_id':string}
 ```
@@ -233,6 +234,7 @@ c_id = content id
 ```javascript
 {'img': string,
 'title': string, 
+'url': string,
 'content': string, 
 'content_id':string}
 ```
