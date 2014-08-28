@@ -32,6 +32,30 @@ id = user account number / user token
 
 ---
 
+**Description:** Getting the content on the home page
+
+**Endpoint:** `ServiceCore/1.0/user/<id>/content/<c_id>
+
+
+**Variables:**
+
+id = user account number / user token
+
+c_id = content id
+
+**REQUEST:**
+`""`
+
+**RESPONSE:**
+```javascript
+{'img': string,
+'title': string, 
+'content': string, 
+'content_id':string}
+```
+
+---
+
 **Description:** Show the user what he has liked
 
 **Endpoint:** `ServiceCore/1.0/user/<id>/content`
