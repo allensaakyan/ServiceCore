@@ -6,6 +6,11 @@ This specification will go through the API specs to be used by the front end of 
  * 404's, 500's, etc
 * Messaging Section of the application
 
+## Looking for Better Solutions
+* Instant Messaging Piece
+* Best Distance calculation method
+* Getting accurate headlines and photos by URL
+
 ##  Hazyness
 * Where the creation of the user is concerned, that's a bit hazy until I look into how the phone integrations work for native apps, but I gave it my best guess.
 
