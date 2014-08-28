@@ -32,9 +32,9 @@ id = user account number / user token
 
 ---
 
-**Description:** Getting the content on the home page
+**Description:** Getting specific content on the home page
 
-**Endpoint:** `ServiceCore/1.0/user/<id>/content/<c_id>
+**Endpoint:** `ServiceCore/1.0/user/<id>/content/<c_id>`
 
 
 **Variables:**
