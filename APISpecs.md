@@ -152,6 +152,7 @@ Possibly token instead of in URL and ServiceCore pulls all the data?
 {'name': string,
 'gender': string
 'photo': string,
+'age':int
 'zip': string,
 'city': string}
 ```
