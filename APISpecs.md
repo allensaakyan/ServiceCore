@@ -26,6 +26,7 @@ id = user account number / user token
 ```javascript
 {'img': string,
 'title': string, 
+'url': string,
 'content': string, 
 'content_id':string}
 ```
@@ -50,6 +51,7 @@ c_id = content id
 ```javascript
 {'img': string,
 'title': string, 
+'url': string,
 'content': string, 
 'content_id':string}
 ```
@@ -74,7 +76,8 @@ id = user account number / user token
 ```javascript
 {'likes': ['img': string,
            'title': string, 
-           'content': string, 
+           'content': string
+           'url': string, 
            'id':string],
 'pagination':int}
 ```
@@ -102,7 +105,8 @@ id = user account number / user token
              'likes_shared': int,
              'messaged':boolean,
              'likes': ['img': string,
-                      'id':string]],
+                       'url': string,
+                       'id':string]],
 'pagination':int}
 ```
 
