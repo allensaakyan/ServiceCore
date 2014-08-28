@@ -75,7 +75,8 @@ id = user account number / user token
 ```javascript
 {'friends': ['img': string,
              'name': string, 
-             'likes_shared': int],
+             'likes_shared': int,
+             'messaged':boolean],
 'pagination':int}
 ```
 
