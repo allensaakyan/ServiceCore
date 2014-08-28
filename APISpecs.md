@@ -76,7 +76,9 @@ id = user account number / user token
 {'friends': ['img': string,
              'name': string, 
              'likes_shared': int,
-             'messaged':boolean],
+             'messaged':boolean,
+             'likes': ['img': string,
+                      'id':string]],
 'pagination':int}
 ```
 
